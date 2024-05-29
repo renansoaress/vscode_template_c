@@ -30,6 +30,21 @@
                 "focus": true,
                 "panel": "shared"
             }
+        },
+        {
+            "label": "Executar",
+            "type": "shell",
+            "command": "${workspaceFolder}/bin/template_c",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            }
         }
     ],
 }
